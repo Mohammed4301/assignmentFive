@@ -4,8 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quam ullam eum eius dignissimos laboriosam earum optio deleniti doloremque! Voluptates quas ea esse accusamus? Praesentium est laboriosam adipisci quasi fugit?</p>
+<body class="max-w-[1280px] mx-auto">
+    <header>
+        <nav class="flex items-center justify-between bg-white p-[20px]">
+            <div class="left flex items-center">
+                <img src="./assets/logo.png" class="w-[45px]" alt="">
+                <h3>Emergency Service</h3>
+            </div>
+            <div class="right flex items-center">
+                <h4><span>0</span><i class="fa-solid fa-heart"></i></h4>
+                <h4><span>100 <i class="fa-brands fa-bitcoin"></i></span></h4>
+                <h4><span>0</span> copy</h4>
+            </div>
+        </nav>
+
+        <div class="banner h-[180px] bg-green-800">
+            
+        </div>
+    </header>
+
+
+    <div class="parentDiv flex justify-between mt-[40px] mb-[40px]">
+        <div class="cardSection grid grid-cols-3 gap-5 w-[80%]">
+        <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/emergency.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">জাতীয় জরুরি সেবা</h3>
+            <h4 class="text-slate-400">National Emergency</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+         <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/police.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">পুলিশ</h3>
+            <h4 class="text-slate-400">Police</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">পুলিশ</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+        <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/ambulance.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">ফায়ার সার্ভিস</h3>
+            <h4 class="text-slate-400">Fire Service</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+         <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/ambulance.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">জাতীয় জরুরি সেবা</h3>
+            <h4 class="text-slate-400">National Emergency</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+         <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/ambulance.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">জাতীয় জরুরি সেবা</h3>
+            <h4 class="text-slate-400">National Emergency</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+        <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/ambulance.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">জাতীয় জরুরি সেবা</h3>
+            <h4 class="text-slate-400">National Emergency</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+        <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/ambulance.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">জাতীয় জরুরি সেবা</h3>
+            <h4 class="text-slate-400">National Emergency</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+        <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/ambulance.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">জাতীয় জরুরি সেবা</h3>
+            <h4 class="text-slate-400">National Emergency</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+        <div class="small-card  p-[20px] rounded-[10px] shadow relative">
+            <img src="./assets/ambulance.png" class="w-[30px]">
+            <h3 class="font-bold text-[18px]">জাতীয় জরুরি সেবা</h3>
+            <h4 class="text-slate-400">National Emergency</h4>
+            <h2 class="">999</h2>
+            <h5 class="bg-slate-200 w-[120px] items-center text-center rounded-[30px] h-[35px] justify-center flex mb-[20px] mt-[10px]">সার্বজনীন</h5>
+            <button class="btn w-[48%] mr-[5px]"><i class="fa fa-clone" aria-hidden="true"></i>
+             Copy</button>
+            <button class="btn w-[48%] "><i class="fa fa-phone text-green-600 " aria-hidden="true"></i>
+            Call</button>
+            <i class="fa fa-heart absolute top-[10%] right-[10%] text-red-500" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="clear w-[350px] ml-[40px]  flex justify-between p-[20px] shadow">
+        <div class="oneside">
+            <h4><i class="fa-solid fa-clock"></i></i> <span>Call History</span></h4>
+        </div>
+        <h5>Clear</h5>
+    </div>
+    </div>
 </body>
 </html>
